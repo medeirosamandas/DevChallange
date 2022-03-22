@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+  --gray: #766f68;
+  --orange: #d2872c;
+}
+h1 {
+  color: var(--orange);
+  font-family: "Roboto";
+}
+
+h2,
+p,
+li {
+  color: var(--gray);
+  font-family: "Roboto";
+}
+
+a {
+  font-family: "Roboto";
+  color: white;
+  background-color: var(--orange);
+  text-decoration: none;
+  padding: 0.8rem;
+  display: block;
+  width: 10rem;
+  text-align: center;
+  border-radius: 0.3rem;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  padding: 5rem;
+  min-height: calc(100vh - 14rem);
+}
+.texto {
+  width: 50%;
+}
+.imagem {
+  background: url("../assets/team.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: calc(100vw - 10rem);
+}
+
+h2 {
+  font-size: 3rem;
+}
+p {
+  font-size: 1.5rem;
+}
+
+nav {
+  width: 25%;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 4rem;
+}
+
+li {
+  list-style-type: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+body {
+  margin: 0;
+}
+header img {
+  display: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+@media only screen and (max-width: 800px) {
+  li {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    flex-direction: column-reverse;
+    padding: 2rem;
+  }
+  main div {
+  }
+  img {
+    width: 100%;
+  }
+  .imagem {
+    height: 250px;
+    background-size: contain;
+    width: 100%;
+  }
+  header img {
+    width: 30px;
+    display: block;
+  }
+  .flex {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  .texto {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
