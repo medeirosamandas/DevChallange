@@ -18,7 +18,17 @@
 
 ## Desafio 03 - [SelfCare](https://www.devchallenge.com.br/challenges/5f14fad2130a5d78f89d9642/details)
 
-- Loje online de produtos de beleza
+- Loja online de produtos de beleza
+
+  - beginner
+  - frontend
+  - html
+  - css
+
+  ## Desafio 04 - [GetCoffe](https://www.devchallenge.com.br/challenges/5f94dfc04b6510002196cb1d/details)
+
+- Landing page de uma cafeteria online
+
   - beginner
   - frontend
   - html
