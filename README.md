@@ -7,3 +7,11 @@
   - frontend
   - html
   - css
+
+## Desafio 02 - [ProfileComponent](https://www.devchallenge.com.br/challenges/5f0b4acaa5fec43156149044/details)
+
+- Perfil de um usuário
+  - beginner
+  - frontend
+  - html
+  - css
