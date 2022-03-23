@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+:root {
+  --verde: #5ca720;
+  --preto: #161616;
+  --cinza: #a5a1a1;
+  --cinzaFooter: #f9f9f9;
+}
+
+body,
+div,
+p,
+h1,
+ul,
+li,
+img,
+input,
+button,
+header,
+footer,
+main {
+  font-family: "Lato";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+.header {
+  display: flex;
+  width: 20%;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.header img {
+  width: 20px;
+  margin: 15px;
+}
+.banner {
+  width: 100%;
+  height: 300px;
+  background-image: url("../assets/banner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner img {
+  width: 100%;
+}
+
+span {
+  color: var(--verde);
+  font-size: large;
+}
+.produto {
+  padding: 1.5rem;
+  width: 28%;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.produto img {
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.linha {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
+
+.promocao {
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 3rem;
+  background-color: var(--cinzaFooter);
+}
+footer li {
+  list-style-type: none;
+}
+
+.links,
+.links2 {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--cinza);
+  padding: 3rem;
+}
+
+.links2 ul {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.links2 img {
+  width: 30px;
+  margin-right: 1rem;
+}
+
+.pagamentos {
+  justify-content: flex-end;
+}
+
+footer input {
+  padding: 0.8rem;
+  width: 15rem;
+  border: none;
+  font-size: medium;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-top: 1rem;
+}
+footer button {
+  padding: 0.8rem;
+  background-color: var(--verde);
+  color: var(--cinzaFooter);
+  border: none;
+  font-weight: bold;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+  .links {
+    flex-direction: column;
+  }
+  .links div {
+    display: flex;
+    flex-direction: column;
+  }
+  .links input,
+  button {
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .links div div {
+    align-items: center;
+    justify-content: center;
+  }
+  .links ul {
+    margin-bottom: 3rem;
+  }
+}
