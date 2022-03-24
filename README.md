@@ -33,3 +33,12 @@
   - frontend
   - html
   - css
+
+  ## Desafio 05 - [GetCoffe](https://www.devchallenge.com.br/challenges/5ed47992adee277fae224a0b/details)
+
+- Empresa que desenvolve sites
+
+  - beginner
+  - frontend
+  - html
+  - css
