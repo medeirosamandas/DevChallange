@@ -42,3 +42,12 @@
   - frontend
   - html
   - css
+
+  ## Desafio 06 - [WorkPlin](https://www.devchallenge.com.br/challenges/5fb5baad237c230021976396/details)
+
+- Busca de co-work online
+
+  - beginner
+  - frontend
+  - html
+  - css
