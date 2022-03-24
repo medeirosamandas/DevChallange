@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --roxo: #72005f;
+  --bege: #baa193;
+}
+
+body,
+img,
+h1,
+header,
+p,
+div,
+main,
+a {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+a {
+  background-color: var(--roxo);
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  width: 12rem;
+}
+
+h1 {
+  color: var(--roxo);
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 0.9;
+  margin-bottom: 2rem;
+}
+
+span {
+  color: var(--bege);
+  font-size: 2rem;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 30vw;
+  height: auto;
+}
+img {
+  width: 30vw;
+  height: auto;
+}
+
+.titulo {
+  margin-right: 4rem;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+header h1 {
+  cursor: pointer;
+}
+
+#main {
+  height: calc(100vh - 13rem);
+  display: flex;
+  align-items: center;
+}
+.parag {
+  background-color: var(--bege);
+  width: 50%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#paragrafo {
+  color: var(--roxo);
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 1rem;
+}
+#img {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+  main {
+    flex-direction: column;
+  }
+  #main {
+    flex-direction: column;
+  }
+}

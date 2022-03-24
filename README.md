@@ -51,3 +51,13 @@
   - frontend
   - html
   - css
+
+  ## Desafio 07 - [WiseGoat](https://www.devchallenge.com.br/challenges/5f14f8d5130a5d78f89d9640/details)
+
+- Site gerador de conselhos e imagens de bodes
+
+  - beginner
+  - frontend
+  - html
+  - css
+  - javascript
