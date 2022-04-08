@@ -73,3 +73,13 @@
   <img src="https://img.shields.io/badge/-html-orange?style=for-the-badge">
   <img src="https://img.shields.io/badge/-css-blue?style=for-the-badge">
   <img src ="https://img.shields.io/badge/-javascript-yellow?style=for-the-badge">
+
+## Desafio 09 - [Contador](https://www.devchallenge.com.br/challenges/5ed6d70709347b1dbf411b37/details)
+
+- Contador de dias, horas, minutos e segundos
+
+  <img src="https://img.shields.io/badge/-intermediate-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/-frontend-ff69b4?style=for-the-badge">
+  <img src="https://img.shields.io/badge/-html-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/-css-blue?style=for-the-badge">
+  <img src ="https://img.shields.io/badge/-javascript-yellow?style=for-the-badge">
